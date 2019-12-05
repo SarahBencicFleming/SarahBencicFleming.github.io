@@ -16,12 +16,6 @@ body {
 
 //The skill bars
 
-$skill1: #d7edfa;
-$skill2: #c8e7f8;
-$skill3: #b9e0f7;
-$skill4: #a9d9f5;
-$skill5: #9ad3f3;
-
 .skill-bar-container {
     position: relative;
     width: 100%;
@@ -32,12 +26,12 @@ $skill5: #9ad3f3;
         display: block;
         border-radius: 4px;
         height: 25px;
-        //background-color: $skillColor; //#d7edfa
-            &.level1 { width: 20%; background-color: $skill1}
-            &.level2 { width: 40%; background-color: $skill2}
-            &.level3 { width: 60%; background-color: $skill3}
-            &.level4 { width: 80%; background-color: $skill4}
-            &.level5 { width: 100%; background-color: $skill5 }
+        //background-color: #d7edfa;
+            &.level1 { width: 20%; background-color: #d7edfa}
+            &.level2 { width: 40%; background-color: #c8e7f8}
+            &.level3 { width: 60%; background-color: #b9e0f7}
+            &.level4 { width: 80%; background-color: #b9e0f7}
+            &.level5 { width: 100%; background-color: #9ad3f3}
     }
     .skill-name {
         position: absolute;
