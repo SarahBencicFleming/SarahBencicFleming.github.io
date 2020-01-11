@@ -24,9 +24,11 @@
       var map;
       function initMap() {
         map = new google.maps.Map(document.getElementById('map'), {
-          center: {lat: -34.397, lng: 150.644},
-          zoom: 8
+          center: {lat: -12.969183, lng: 40.533586}, 
+          zoom: 20
+          mapTypeId: 'satellite'
         });
+          map.setTilt(45);
       }
     </script>
     <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyASnepjuKIdzwhR08T5dWlWeww5QNgQqhM&callback=initMap"
