@@ -1,0 +1,131 @@
+/*Found assistance to centre and not repeat through: https://css-tricks.com/almanac/properties/b/background-position/*/
+html {
+  background: url("Webpage1.jpg") no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+}
+/*Remainder of Css completed from scratch but inspired by tags from W3Schools*/	
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.Title{
+font-style: normal;
+font-family: Arial, Candara, sans-serif;
+font-size: 100px;
+color: white;
+position: relative;
+width: 800px;
+height: 600px;
+}
+	
+
+.H1{
+font-style: normal;
+font-family: Arial, Candara, sans-serif;
+font-size: 70px;
+color: white;
+text-align: center;
+position: relative;
+margin-top: 100px;
+margin-bottom:50px;
+height: 200px;
+padding: 50px;
+}
+
+.H2 {
+font-style: normal;
+font-family: Arial, Candara, sans-serif;
+font-size: 30px;
+color: white;
+text-align: center;
+position: relative;
+margin-top: 100px;
+margin-bottom:50px;
+height: 50px;
+}
+
+.H3 {
+font-style: normal;
+font-family: Arial, Candara, sans-serif;
+font-size: 10px;
+color: white;
+text-align: center;
+position: relative;
+margin-top: 100px;
+margin-bottom:50px;
+margin-left: 400px;
+width: 1000px;
+height: 20px;
+}
+
+.H4 {
+font-style: normal;
+font-family: Arial, Candara, sans-serif;
+font-size: 10px;
+color: white;
+text-align: center;
+position: relative;
+margin-top: 10px;
+margin-bottom: 20px;
+width:1000px; 
+height: 20px;
+}
+
+.BDY {
+font-style: normal;
+font-family: Arial, Candara, sans-serif; color: white; opacity:1.0;
+font-size: 12px;
+text-align: center;
+position: relative;
+margin-top: 100px;
+margin-left: 400px;
+width:1000px; 
+padding: 20px;
+}
+.BDY2 {
+font-style: normal;
+font-family: Arial, Candara, sans-serif; color: white; opacity:1.0;
+font-size: 12px;
+text-align: center;
+position: relative;
+margin-left: 400px;
+width:1000px 
+}
+.IMG {
+position: relative;
+margin-top: 200px;
+margin-bottom:50px;
+margin-right: 50px;
+margin-left: 50px;
+}
+
+.topnav {
+  background-color: #B9B9B9;
+  overflow: hidden;
+}
+
+/* Style the links inside the navigation bar from w3 Schools but modified for my webpage */
+.topnav a {
+  float: left;
+  font-family: Arial, Candara, sans-serif; color: #FFFFFF;
+  color: #FFFFFF;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Change the color of links on hover from w3Schools */
+.topnav a:hover {
+  background-color: #B9B9B9;
+  color: black;
+}
+
+/* Add a color to the active/current link from w3schools */
+.topnav a.active {
+  background-color: #B9B9B9;
+  color: #FFFFFF;
+}
